@@ -52,6 +52,10 @@ a {
   /* height: 500px; */
   height: 50vh;
 }
+
+.cover {
+  width: 30rem;
+}
 /* COVER Ends */
 
 /* GRID Starts */
