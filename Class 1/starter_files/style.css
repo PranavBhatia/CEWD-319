@@ -1,0 +1,54 @@
+h2 {
+  color: red;
+}
+
+body {
+  background-image: url("back.jpeg");
+  background-size: cover;
+}
+
+h2 {
+  color: red;
+}
+
+/* This is the syntax for global elements */
+h2, p {
+  color: green;
+  text-align: center;
+  border: 5px solid #f6b7a2;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: violet;
+}
+
+/* This is the syntax for ID */
+#div1 {
+  background: grey;
+}
+
+#div2 {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+/* This is the syntax for classes */
+.text {
+  border: 5px dashed green;
+}
+
+.canada {
+  border: 5px dashed white;
+}
+
+.active {
+  color: red;
+}
+
+/* #div1 p:last-child {
+  background: black;
+} */
+
+#div1 p:last-child {
+  background: black;
+}

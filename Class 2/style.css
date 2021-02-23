@@ -1,0 +1,56 @@
+
+body {
+    background-image: url(back.jpeg);
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+    border: 5px dashed purple;
+    cursor: pointer;
+}
+
+p {
+    color: red;
+    /* color: #85ad4f;
+    color: rgb(255, 170, 170);
+    color: rgba(255, 170, 170, 1); */
+}
+
+/* 
+    element element: Select all the <span> elements which are inside <h2> 
+    element > element: Select all the <span> where parent is <h2>
+*/
+h2 > span {
+    color: #180301;
+}
+
+/* Selects the FIRST <p> element that is placed immediately after div */
+div + p {
+    color: #180301;
+}
+
+.webtext {
+    color: rgb(0, 89, 255);
+}
+
+p:first-child {
+    color: rgb(51, 221, 130);
+}
+
+.active {
+    border: 5px dashed green;
+}
+
+#div1 {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+h2:hover {
+    color: burlywood;
+}

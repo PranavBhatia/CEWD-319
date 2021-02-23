@@ -1,0 +1,38 @@
+
+.box {
+    clear: both;
+    border: 2px solid red;
+    margin: 30px;
+    padding: 20px;
+}
+
+
+span {
+    font-size: 4em;
+    /* font-size: 4rem; */
+}
+
+p {
+  text-decoration: underline;
+  /* line-height: 30px; */
+  font-style: italic;
+  /* font-weight: 600; */
+
+  font-size: 10px;
+
+  font-family: "Potta One", cursive;
+}
+h2 {
+  text-transform: capitalize;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    /* float: left; */
+    padding-right: 20px;
+}
+
+footer {
+    clear: both;
+}

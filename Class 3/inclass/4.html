@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        h1 {
+            text-align: center;
+        }
+        .wrap:hover .box {
+            transform: scale(2);
+        }
+        .container {
+            margin: 100px;
+        }
+
+        .container:hover .circle {
+            transform: translateX(200px);
+        }
+        
+        .circle {
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        .circle0 {
+            background: paleturquoise;
+            transition: all 1.5s linear;
+        }
+
+        .circle1 {
+            background: salmon;
+            transition: all 1.5s ease;
+        }
+
+        .circle2 {
+            background: blue;
+            transition: all 1.5s ease-in;
+        }
+
+        .circle3 {
+            background: khaki;
+            transition: all 1.5s ease-out;
+        }
+
+        .circle4 {
+            background: mediumpurple;
+            transition: all 1.5s ease-in-out;
+        }
+
+        .circle5 {
+            background: thistle;
+            transition: all 1.5s cubic-bezier(0, 1, 0.98, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle circle0"></div>
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+        <div class="circle circle4"></div>
+        <div class="circle circle5"></div>
+    </div>
+</body>
+
+</html>
