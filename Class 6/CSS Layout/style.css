@@ -54,6 +54,24 @@ a {
 }
 /* COVER Ends */
 
+/* GRID Starts */
+.grid-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box {
+  background-color: #444;
+  padding: 130px;
+  margin: 20px;
+}
+/* GRID Ends */
+
 .zone:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
